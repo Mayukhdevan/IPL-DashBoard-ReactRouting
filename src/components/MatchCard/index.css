@@ -1,0 +1,49 @@
+.recent-match-card {
+  background-color: #0f172a;
+  border-radius: 15px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+  text-align: center;
+  color: white;
+  width: calc(50% - 1rem);
+}
+.competing-team-logo {
+  width: 50px;
+}
+.competing-team-para {
+}
+.result-text {
+  font-size: 0.6rem;
+}
+.result-declaration {
+  font-size: 0.9rem;
+  color: #e31a1a;
+}
+.Won {
+  color: #18ed66;
+}
+
+@media (min-width: 768px) {
+  .recent-match-card {
+    width: calc((768px / 3) - 2rem);
+    flex-grow: 1;
+    gap: 2.5rem;
+    padding: 2rem;
+  }
+  .competing-team-para {
+    font-size: 1.5rem;
+  }
+  .competing-team-logo {
+    width: 100px;
+  }
+  .result-text {
+    font-size: 1rem;
+  }
+  .result-declaration {
+    font-size: 1.5rem;
+  }
+}

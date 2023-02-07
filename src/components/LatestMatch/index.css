@@ -1,0 +1,75 @@
+.latest-match-card {
+  background-color: #0f172a;
+  color: white;
+  border-radius: 15px;
+  margin-bottom: 1rem;
+}
+.heading-date-logo-wrapper {
+  border-bottom: 1.5px solid #475569;
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin-top: 1.5rem;
+}
+.heading-date-texts-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.latest-competing-team {
+  font-size: 1.5rem;
+}
+.date {
+  font-size: 1.2rem;
+}
+.para-100 {
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+.latest-match-competing-team-logo {
+  width: 50px;
+}
+.innings-details-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .latest-match-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+  }
+  .heading-date-logo-wrapper {
+    flex-grow: 1;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  .latest-competing-team {
+    font-size: 2rem;
+  }
+  .date {
+    font-size: 1.5rem;
+  }
+  .para-100 {
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  .latest-match-competing-team-logo {
+    width: 200px;
+  }
+  .innings-details-container {
+    flex-grow: 1;
+    align-items: flex-end;
+    text-align: right;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+}

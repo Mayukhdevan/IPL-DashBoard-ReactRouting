@@ -1,0 +1,27 @@
+.team-card-item {
+  display: flex;
+  flex-direction: column;
+  border: 1.5px solid #ffffff;
+  background-color: #ffffff33;
+  border-radius: 15px;
+  list-style: none;
+  overflow: hidden;
+}
+.nav-link {
+  flex-grow: 1;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem 0.5rem;
+}
+.team-image {
+  width: 50px;
+}
+.team-name {
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+  opacity: 0.8;
+}
